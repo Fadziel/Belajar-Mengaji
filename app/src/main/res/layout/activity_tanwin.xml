@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_tanwin"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgbaru"
+    tools:context="com.racunduniaku.belajarmengaji.TanwinActivity">
+    <HorizontalScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="30dp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:id="@+id/tanwin_fathah"
+                android:layout_width="230dp"
+                android:layout_height="230dp"
+                android:background="@drawable/menu_fathah_tain"/>
+            <ImageButton
+                android:id="@+id/tanwin_kasroh"
+                android:layout_width="230dp"
+                android:layout_height="230dp"
+                android:background="@drawable/menu_kasroh_tain"/>
+            <ImageButton
+                android:id="@+id/tanwin_dhomah"
+                android:layout_width="230dp"
+                android:layout_height="230dp"
+                android:background="@drawable/menu_domah_tain"/>
+        </LinearLayout>
+
+    </HorizontalScrollView>
+
+    <ImageButton
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:background="@drawable/help"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/buttonAbout" />
+
+    <ImageButton
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:background="@drawable/back"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:onClick="btnback"
+        android:id="@+id/buttonExit" />
+
+</RelativeLayout>

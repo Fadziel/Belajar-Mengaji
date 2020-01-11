@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">BelajarMengaji</string>
+
+    <!--admob ads id-->
+    <string name="admob_app_id">ca-app-pub-7645343680635779~4291663646</string>
+    <string name="admob_banner_unit_id">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="admob_interstitial_unit_id">ca-app-pub-3940256099942544/1033173712</string>
+
+    <!--my google link-->
+    <string name="privacy_policy_url">https://fadzielcreacker.wordpress.com/2019/12/03/privacy-policy/</string>
+
+</resources>
